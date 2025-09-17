@@ -60,8 +60,8 @@ export default function Navbar() {
         <div
           className={`md:hidden transition-all duration-300 ease-in-out ${
             isOpen
-              ? "max-h-96 opacity-100"
-              : "max-h-0 opacity-0 overflow-hidden"
+              ? "max-h-96 block"
+              : "max-h-0 hidden overflow-hidden"
           }`}
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 absolute bg-white w-full left-0">
