@@ -8,7 +8,7 @@ import roundedImg from "../assets/images/roundedImg.png";
 const Hero = () => {
   return (
     <div className="bg-[#E3F7EF] xl:bg-[#F0F5F9] px-4 pt-10 2xl:pt-36 md:pt-28">
-      <div className="sm:max-w-[500px] border-b-2 xl:pb-36  border-green-400  xl:justify-between md:max-w-[700px] xl:max-w-[1200px] 2xl:max-w-[1300px] xl:flex xl:items-center sm:mx-auto">
+      <div className="sm:max-w-[500px] xl:border-b-2 xl:pb-36  xl:border-green-400  xl:justify-between md:max-w-[700px] xl:max-w-[1200px] 2xl:max-w-[1300px] xl:flex xl:items-center sm:mx-auto">
         <div className="flex xl:w-[50%] flex-col gap-10">
           <div>
             <h2 className="flex items-center text-[#202942] text-[35px] md:text-[70px] font-bold">
@@ -62,7 +62,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="h-[250px] xl:self-end xl:w-[40%] 2xl:w-[420px] 2xl:h-[420px] xl:h-[400px] sm:h-[400px] md:h-[500px] xl:mt-0 md:mt-44 sm:mt-56 mt-44 flex items-center justify-center relative rounded-2xl w-[100%] bg-[#28e98c]">
+        <div className="h-[250px] xl:self-end xl:w-[40%] 2xl:w-[420px] 2xl:h-[420px] services xl:h-[400px] sm:h-[400px] md:h-[500px] xl:mt-0 md:mt-44 sm:mt-56 mt-44 flex items-center justify-center relative rounded-t-2xl xl:rounded-2xl w-[100%] bg-[#28e98c]">
           <img
             src={myImgOne}
             alt="My"
