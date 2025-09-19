@@ -62,7 +62,7 @@ const Services = () => {
             </div>
           ))}
            <div
-              className="services hidden xl:flex relative bg-white rounded-lg"
+              className="services hidden md:flex relative bg-white rounded-lg"
             >
               <div className="w-[50%] h-[100%] bg-[#E4F8F0]"></div>
               <div className="w-[50%] h-[100%] bg-[#E6EAEE]"></div>
