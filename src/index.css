@@ -29,3 +29,11 @@
 .aboutThumb {
     box-shadow: 20px 30px 50px rgba(0, 0, 0, 0.1);
 }
+
+.thumb-zoom img{
+    transition: all 0.3s ease-in-out;
+}
+
+.thumb-zoom:hover img{
+    transform: scale(1.2);
+}
