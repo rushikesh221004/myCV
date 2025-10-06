@@ -4,7 +4,7 @@ import PersonalSkills from "./PersonalSkills";
 import Education from "./Education";
 export const AboutMe = () => {
   return (
-    <div className="my-16 xl:my-0 xl:mt-10 xl:w-[50%]">
+    <div id="about" className="my-16 xl:my-0 xl:mt-10 xl:w-[50%]">
       <div className="flex flex-col gap-5">
         <h2 className="text-2xl md:text-2xl font-bold bg-gradient-to-r from-green-400 via-lime-400 to-yellow-400 bg-clip-text text-transparent">
           ABOUT ME

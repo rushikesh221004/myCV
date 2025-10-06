@@ -11,11 +11,11 @@ export default function Navbar() {
   };
 
   const navItems = [
-    { name: "Home", href: "/" },
-    { name: "Services", href: "/services" },
-    { name: "About", href: "/about" },
-    { name: "Portfolio", href: "/portfolio" },
-    { name: "Contact", href: "/contact" },
+    { name: "Home", href: "/"},
+    { name: "Services", href: "#services"},
+    { name: "About", href: "#about"},
+    { name: "Projects", href: "#projects"},
+    { name: "Contact", href: "#contact"},
   ];
   return (
     <nav className="bg-white shadow-lg sticky top-0 z-50">
@@ -32,6 +32,7 @@ export default function Navbar() {
               {navItems.map((item) => (
                 <a
                   key={item.name}
+                  id={item.id}
                   href={item.href}
                   className="text-gray-600 hover:text-[#28E98C] px-3 py-2 rounded-md text-sm lg:text-[17px] font-medium transition-colors duration-200"
                 >
