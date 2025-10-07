@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 export default function Footer() {
   return (
     <div id="contact" className="sm:max-w-[500px] lg:flex  contact mt-20 py-20 px-4 w-full md:max-w-[700px] xl:max-w-[1200px] 2xl:max-w-[1300px] mx-auto">
-      <div className="w-full">
+      <div className="w-full lg:w-[50%]">
         <h2 className="text-4xl sm:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-green-400 via-lime-400 to-yellow-400 bg-clip-text text-transparent">
           Let's Talk
         </h2>
@@ -34,7 +34,7 @@ export default function Footer() {
             </p>
         </div>
       </div>
-      <div className="mt-20">
+      <div className="mt-20 lg:mt-0 lg:w-[50%]">
         <ContactForm/>
       </div>
     </div>
