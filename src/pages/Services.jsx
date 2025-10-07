@@ -24,7 +24,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="px-4 py-20 w-full bg-[#F0F5F9] ">
+    <div id="services" className="px-4 py-20 w-full bg-[#F0F5F9] ">
       <div className="flex flex-col sm:max-w-[500px] mx-auto md:max-w-[700px] xl:max-w-[1200px] 2xl:max-w-[1300px] gap-1">
         <h2 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-green-400 via-lime-400 to-yellow-400 bg-clip-text text-transparent">
           WHAT I DO
