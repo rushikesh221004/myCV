@@ -2,7 +2,16 @@ import { GoDownload } from "react-icons/go";
 import Biography from "./Biography";
 import PersonalSkills from "./PersonalSkills";
 import Education from "./Education";
+import resume from "../assets/images/resume.pdf";
 export const AboutMe = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = resume; 
+    link.download = "Rushikesh_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div id="about" className="my-16 xl:my-0 xl:mt-10 xl:w-[50%]">
       <div className="flex flex-col gap-5">
@@ -20,7 +29,8 @@ export const AboutMe = () => {
         </p>
 
         <button
-          className="bg-white mt-5 text-center w-56 px-1 overflow-hidden rounded-2xl h-14 relative text-black text-xl font-semibold group"
+          onClick={handleDownload}
+          className="bg-white hover:cursor-pointer mt-5 text-center w-56 px-1 overflow-hidden rounded-2xl h-14 relative text-black text-xl font-semibold group"
           type="button"
         >
           <div className="bg-green-400 rounded-xl h-12 w-1/4 flex items-center justify-center absolute top-[4px] group-hover:w-[215px] z-10 duration-500">
@@ -29,9 +39,9 @@ export const AboutMe = () => {
           <p className="translate-x-5">Download CV</p>
         </button>
 
-        <Biography/>
-        <PersonalSkills/>
-        <Education/>
+        <Biography />
+        <PersonalSkills />
+        <Education />
       </div>
     </div>
   );
