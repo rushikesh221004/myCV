@@ -1,4 +1,4 @@
-import React from "react";
+
 import Getintouch from "./Getintouch";
 
 const ContactForm = () => {
@@ -30,7 +30,10 @@ const ContactForm = () => {
               rows={8}
               className="border-b-[1px] w-full text-[#202942] font-semibold border-gray-300 placeholder:font-semibold pl-3 pb-3 placeholder:text-[#202942] py-1 transition-colors focus:outline-none peer bg-inherit"
             ></textarea>
-            <Getintouch/>
+           
+              <Getintouch />
+              
+           
           </div>
         </div>
       </div>

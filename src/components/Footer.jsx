@@ -1,5 +1,6 @@
 import callDark from "../assets/images/callDark.png";
 import ContactForm from "./ContactForm";
+import Socialmedia from "./Socialmedia";
 export default function Footer() {
   return (
     <div id="contact" className="sm:max-w-[500px] lg:flex  contact mt-20 py-20 px-4 w-full md:max-w-[700px] xl:max-w-[1200px] 2xl:max-w-[1300px] mx-auto">
@@ -29,6 +30,10 @@ export default function Footer() {
               rushikeshmanjre221004@gmail.com
             </p>
           </div>
+            <div className="flex flex-col gap-2">
+              <p className="text-[#202942] text-xl font-semibold">Social Media</p>
+              <Socialmedia/>
+            </div>
           <p className="text-[#666666] font-semibold">  
             © 2025 Rishi. All Rights Reserved        
             </p>

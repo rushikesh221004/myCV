@@ -1,7 +1,7 @@
 import { BsFillSendFill } from "react-icons/bs";
 const Getintouch = () => {
   return (
-    <button className="relative w-fit flex items-center px-10 py-5 lg:py-4 overflow-hidden font-medium transition-all bg-[#28e98c] rounded-md group">
+    <button className="relative w-fit flex items-center px-8 py-5 lg:py-4 overflow-hidden font-medium transition-all bg-[#28e98c] rounded-md group">
       <span className="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-green-300 rounded group-hover:-mr-4 group-hover:-mt-4">
         <span className="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
       </span>
